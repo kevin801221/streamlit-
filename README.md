@@ -1,58 +1,56 @@
-<br>
+## 歡迎來到 Streamlit 👋
 
-<img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit logo" style="margin-top:50px"></img>
+**更快速地構建和分享資料應用程式。**
 
-# Welcome to Streamlit 👋
+## 什麼是 Streamlit？
 
-**A faster way to build and share data apps.**
+Streamlit 讓你在幾分鐘內將 Python 腳本轉換為互動式的網頁應用，而非數週的開發。無論是構建儀表板、生成報告還是建立聊天應用，你都能輕鬆上手。完成應用後，你可以使用我們的 [Community Cloud 平台](https://streamlit.io/cloud) 來部署、管理和分享你的應用程式。
 
-## What is Streamlit?
+### 為什麼選擇 Streamlit？
 
-Streamlit lets you transform Python scripts into interactive web apps in minutes, instead of weeks. Build dashboards, generate reports, or create chat apps. Once you’ve created an app, you can use our [Community Cloud platform](https://streamlit.io/cloud) to deploy, manage, and share your app.
+- **簡單且 Pythonic**：撰寫簡潔易讀的程式碼。
+- **快速互動原型**：讓他人快速與你的資料互動並提供回饋。
+- **即時編輯**：編輯腳本時，應用程式會即時更新。
+- **開源且免費**：加入充滿活力的社群，並為 Streamlit 的未來貢獻力量。
 
-### Why choose Streamlit?
+## 安裝
 
-- **Simple and Pythonic:** Write beautiful, easy-to-read code.
-- **Fast, interactive prototyping:** Let others interact with your data and provide feedback quickly.
-- **Live editing:** See your app update instantly as you edit your script.
-- **Open-source and free:** Join a vibrant community and contribute to Streamlit's future.
-
-## Installation
-
-Open a terminal and run:
+打開終端並運行以下指令：
 
 ```bash
 $ pip install streamlit
 $ streamlit hello
 ```
 
-If this opens our sweet _Streamlit Hello_ app in your browser, you're all set! If not, head over to [our docs](https://docs.streamlit.io/get-started) for specific installs.
+如果這樣做能在你的瀏覽器中開啟我們的「_Streamlit Hello_」應用，那麼一切都設置完成了！如果沒有，請前往 [我們的文件](https://docs.streamlit.io/get-started) 獲取更多詳細的安裝指引。
 
-The app features a bunch of examples of what you can do with Streamlit. Jump to the [quickstart](#quickstart) section to understand how that all works.
+這個應用展示了許多 Streamlit 能做到的例子。跳到 [快速開始](#quickstart) 章節來了解這一切是如何運作的。
 
 <img src="https://user-images.githubusercontent.com/7164864/217936487-1017784e-68ec-4e0d-a7f6-6b97525ddf88.gif" alt="Streamlit Hello" width=500 href="none"></img>
 
-## Quickstart
+## 快速開始
 
-### A little example
+### 一個小例子
 
-Create a new file `streamlit_app.py` with the following code:
+創建一個名為 `streamlit_app.py` 的新檔案，並將以下程式碼貼入其中：
+
 ```python
 import streamlit as st
-x = st.slider("Select a value")
-st.write(x, "squared is", x * x)
+x = st.slider("選擇一個值")
+st.write(x, "的平方是", x * x)
 ```
 
-Now run it to open the app!
-```
+然後運行它來開啟應用程式！
+
+```bash
 $ streamlit run streamlit_app.py
 ```
 
 <img src="https://user-images.githubusercontent.com/7164864/215172915-cf087c56-e7ae-449a-83a4-b5fa0328d954.gif" width=300 alt="Little example"></img>
 
-### Give me more!
+### 我想要更多！
 
-Streamlit comes in with [a ton of additional powerful elements](https://docs.streamlit.io/develop/api-reference) to spice up your data apps and delight your viewers. Some examples:
+Streamlit 提供了 [大量強大的元件](https://docs.streamlit.io/develop/api-reference) 來讓你的資料應用更豐富多彩，吸引觀眾。這裡有一些例子：
 
 <table border="0">
   <tr>
@@ -88,46 +86,46 @@ Streamlit comes in with [a ton of additional powerful elements](https://docs.str
     </td>
   </tr>
   <tr>
-    <td>Input widgets</td>
-    <td>Dataframes</td>
-    <td>Charts</td>
-    <td>Layout</td>
-    <td>Multi-page apps</td>
-    <td>Fun</td>
+    <td>輸入元件</td>
+    <td>資料框</td>
+    <td>圖表</td>
+    <td>佈局</td>
+    <td>多頁應用</td>
+    <td>趣味功能</td>
   </tr>
 </table>
 
+我們活躍的創作者社群也會使用 🧩 [Streamlit Components](https://streamlit.io/components) 來擴展 Streamlit 的功能。
 
-Our vibrant creators community also extends Streamlit capabilities using  🧩 [Streamlit Components](https://streamlit.io/components).
+## 獲取靈感
 
-## Get inspired
+你可以使用 Streamlit 構建各種應用：
 
-There's so much you can build with Streamlit:
-- 🤖  [LLMs & chatbot apps](https://streamlit.io/gallery?category=llms)
-- 🧬  [Science & technology apps](https://streamlit.io/gallery?category=science-technology)
-- 💬  [NLP & language apps](https://streamlit.io/gallery?category=nlp-language)
-- 🏦  [Finance & business apps](https://streamlit.io/gallery?category=finance-business)
-- 🗺  [Geography & society apps](https://streamlit.io/gallery?category=geography-society)
-- and more!
+- 🤖  [LLMs & 聊天機器人應用](https://streamlit.io/gallery?category=llms)
+- 🧬  [科學與技術應用](https://streamlit.io/gallery?category=science-technology)
+- 💬  [自然語言處理與語言應用](https://streamlit.io/gallery?category=nlp-language)
+- 🏦  [金融與商業應用](https://streamlit.io/gallery?category=finance-business)
+- 🗺  [地理與社會應用](https://streamlit.io/gallery?category=geography-society)
+- 以及更多！
 
-**Check out [our gallery!](https://streamlit.io/gallery)** 🎈
+**快來看看 [我們的展示廳！](https://streamlit.io/gallery)** 🎈
 
-## Community Cloud
+## 社群雲端平台
 
-Deploy, manage and share your apps for free using our [Community Cloud](https://streamlit.io/cloud)! Sign-up [here](https://share.streamlit.io/signup). <br><br>
+使用我們的 [Community Cloud](https://streamlit.io/cloud) 免費部署、管理和分享你的應用程式！在這裡 [註冊](https://share.streamlit.io/signup) 並開始吧。<br><br>
 <img src="https://user-images.githubusercontent.com/7164864/214965336-64500db3-0d79-4a20-8052-2dda883902d2.gif" width="400"></img>
 
-## Resources
-- Explore our [docs](https://docs.streamlit.io) to learn how Streamlit works.
-- Ask questions and get help in our [community forum](https://discuss.streamlit.io).
-- Read our [blog](https://blog.streamlit.io) for tips from developers and creators.
-- Extend Streamlit's capabilities by installing or creating your own [Streamlit Components](https://streamlit.io/components).
-- Help others find and play with your app by using the Streamlit GitHub badge in your repository:
+## 資源
+- 探索我們的 [文件](https://docs.streamlit.io) 來學習 Streamlit 如何運作。
+- 在我們的 [社群論壇](https://discuss.streamlit.io) 提問並尋求幫助。
+- 閱讀我們的 [部落格](https://blog.streamlit.io) 以獲取開發者和創作者的技巧。
+- 透過安裝或創建自己的 [Streamlit Components](https://streamlit.io/components) 來擴展 Streamlit 的功能。
+- 幫助其他人找到並使用你的應用，透過在你的 GitHub 倉庫中加入 Streamlit 徽章：
 ```markdown
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](URL_TO_YOUR_APP)
 ```
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/streamlit/roadmap)
 
-## License
+## 授權
 
-Streamlit is completely free and open-source and licensed under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license.
+Streamlit 是完全免費和開源的，並根據 [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) 授權。
